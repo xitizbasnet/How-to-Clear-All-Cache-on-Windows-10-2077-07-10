@@ -1,16 +1,39 @@
 # How-to-Clear-All-Cache-on-Windows-10-2077-07-10
 How to Clear All Cache on Windows 10 | 2077-07-10
 
-First DGo to the Desktop
+First
 
-Second Go to the search button and type "Windows PowerShell ISE (x86)" 
+Go to the Desktop
+
+....................
 
 
-Third "Windows PowerShell ISE (x86)" Run it as Administration 
+Second 
 
-Fourth Create a New File
+Go to the search button and type "Windows PowerShell ISE (x86)" 
 
-Fifth Click and paste this code:
+..............................................................
+
+
+Third 
+
+"Windows PowerShell ISE (x86)" Run it as Administration
+
+..............................................................
+
+
+Fourth 
+
+Create a New File
+
+..............................................................
+
+
+
+Fifth 
+
+Click and paste this code:
+
 
 $objShell = New-Object -ComObject Shell.Application
 	$objFolder = $objShell.Namespace(0xA)
@@ -44,19 +67,47 @@ $objShell = New-Object -ComObject Shell.Application
 	Sleep 3
 ##### End of the Script ##### 
 
+..............................................................
 
 
-Sixth Save it as "CleanFile.ps1" in Desktop
+Sixth 
 
-Seventh Go to the Desktop
+Save it as "CleanFile.ps1" in Desktop
+
+..............................................................
 
 
-Eight Open "CleanFile.ps1" from Desktop By right click and go to the option: "Run with PowerShell" 
+
+Seventh 
+
+Go to the Desktop
+
+..............................................................
 
 
-Ningth wait for some moment until it will finish the work and close the PowerShell by the windows itself.
 
-Tenth Done! Enjoy the system will clean up all the temp file and the system will sun smoothly then prviously.
+Eight 
+
+Open "CleanFile.ps1" from Desktop By right click and go to the option: "Run with PowerShell" 
+
+..............................................................
+
+
+
+
+Ningth 
+
+Wait for some moment until it will finish the work and close the PowerShell by the windows itself.
+
+..............................................................
+
+
+
+Tenth 
+
+Done! Enjoy the system will clean up all the temp file and the system will sun smoothly then prviously.
+
+..............................................................
 
 
 Bye Bye
